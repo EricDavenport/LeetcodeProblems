@@ -37,16 +37,21 @@ func reverse(_ x: Int) -> Int {
   while y > 0 {
     reversed = (reversed * 10)  + (y % 10)
     y = Int(y / 10)
-    print(y)
   }
+  
   if isNegative {
     reversed = reversed * -1
+  }
+  
+  // number can not be greater than 32-bit integer
+  guard reversed < INT32_MAX else {
+    return 0
   }
 
   return reversed
   }
 
-print(reverse(-90))
+print(reverse(-987))
 
 /*
  check for positive / negatives
