@@ -3,5 +3,7 @@
     <pages>
         <page name='ReverseInteger'/>
         <page name='TwoSum'/>
+        <page name='TwoSumII'/>
+        <page name='RunningSum'/>
     </pages>
 </playground>
