@@ -1,6 +1,7 @@
 import Foundation
 
 /*
+ Problem 1736
  You are given a string time in the form of hh:mm, where some of the digits in the string are hidden (represented by ?).
  
  The valid times are those inclusively between 00:00 and 23:59.
@@ -30,19 +31,19 @@ func maximumTime(_ time: String) -> String {
   var realTime = ""
   var index = 0
 
-  for i in time {
-    if i == "?" {
-      print(i)
-    }
-  }
+  // soltuion not in discussion -> youtube or google
   
+  for i in time {
+
+  }
+
   return realTime
 }
 
 print(maximumTime("23:??"))
 
 
-/*
+
  
 //  if time[0] == "?" {
 //    if Int(time[1]) < 4 || time[1] == "?" {
@@ -68,4 +69,5 @@ print(maximumTime("23:??"))
 //  if time[4] == "?" {
 //    realTime.append("9")
 //  }
- */
+
+ 

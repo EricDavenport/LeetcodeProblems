@@ -5,6 +5,7 @@
         <page name='TwoSum'/>
         <page name='TwoSumII'/>
         <page name='RunningSum'/>
-        <page name='LatestTime'/>
+        <page name='MaximumTime'/>
+        <page name='KidsWithCandies'/>
     </pages>
 </playground>
