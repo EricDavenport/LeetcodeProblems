@@ -50,4 +50,7 @@ func runningSum(_ nums: [Int]) -> [Int] {
 
 // example 1 above
 var test1 = [1, 2, 3, 4, 5]
+let test2 = [3,1,2,10,1]
+
 print(runningSum(test1))
+print(runningSum(test2))

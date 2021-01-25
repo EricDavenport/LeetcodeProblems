@@ -45,29 +45,29 @@ print(maximumTime("23:??"))
 
 
  
-//  if time[0] == "?" {
-//    if Int(time[1]) < 4 || time[1] == "?" {
-//      realTime.append("2")
-//    } else if Int(time[1]) >= 4 {
-//      realTime.append("1")
-//    }
-//  }
-//
-//  if time[1] == "?" {
-//    if time[0] == "0" || time[0] == "1" {
-//      realTime.append("9")
-//    }
-//    else if time[0] == "2" {
-//      realTime.append("3")
-//    }
-//  }
-//
-//  if time[3] == "?" {
-//    realTime.append("5")
-//  }
-//
-//  if time[4] == "?" {
-//    realTime.append("9")
-//  }
+  if time[0] == "?" {
+    if Int( time[1] ) < 4 || time[1] == "?" {
+      realTime.append("2")
+    } else if Int(time[1]) >= 4 {
+      realTime.append("1")
+    }
+  }
+
+  if time[1] == "?" {
+    if time[0] == "0" || time[0] == "1" {
+      realTime.append("9")
+    }
+    else if time[0] == "2" {
+      realTime.append("3")
+    }
+  }
+
+  if time[3] == "?" {
+    realTime.append("5")
+  }
+
+  if time[4] == "?" {
+    realTime.append("9")
+  }
 
  
