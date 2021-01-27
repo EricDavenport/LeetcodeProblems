@@ -10,5 +10,7 @@
         <page name='ConsistentStrings'/>
         <page name='AddTwoNumbers'/>
         <page name='ValidSudoku'/>
+        <page name='RemoveElement'/>
+        <page name='LinkedListPlayground'/>
     </pages>
 </playground>

@@ -57,7 +57,6 @@ func kidsWithCandies(_ candies: [Int], _ extraCandies: Int) -> [Bool] {
   
   for kid in candies {
     if kid + extraCandies >= greatestCandies {
-      print("kidCandies: \(kid), extraCandies:\(extraCandies), greatesCandies: \(greatestCandies)")
       result.append(true)
     }
     else if kid + extraCandies < greatestCandies {
@@ -73,6 +72,6 @@ let test1 = [2,3,5,1,3]
 let test2 = [4,2,1,1,2]
 let test3 = [12,1,12]
 
-kidsWithCandies(test1, 3)
-kidsWithCandies(test2, 1)
-kidsWithCandies(test3, 10)
+print(kidsWithCandies(test1, 3))
+print(kidsWithCandies(test2, 1))
+print(kidsWithCandies(test3, 10))

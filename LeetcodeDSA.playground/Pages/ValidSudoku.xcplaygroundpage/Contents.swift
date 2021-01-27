@@ -49,7 +49,7 @@ import Foundation
  */
 
 func isValidSudoku(_ board: [[Character]]) -> Bool {
-  
+  return true
 }
 
 /*
