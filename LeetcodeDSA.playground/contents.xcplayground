@@ -12,5 +12,9 @@
         <page name='ValidSudoku'/>
         <page name='RemoveElement'/>
         <page name='LinkedListPlayground'/>
+        <page name='MultipleStrings'/>
+        <page name='RemoveLinkedListElements'/>
+        <page name='LargestNumberAtLeastTwice'/>
+        <page name='NumberOfEquivalentDominoPairs'/>
     </pages>
 </playground>

@@ -101,7 +101,7 @@ extension LinkedList {
   func removeLast() -> Node? {
 //    var tail = self.tail
     
-    while secondLast
+//    while secondLast
     
     guard let lastNode = tail else {
       return nil
