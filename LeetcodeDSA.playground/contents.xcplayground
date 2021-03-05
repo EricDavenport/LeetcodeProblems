@@ -16,5 +16,9 @@
         <page name='RemoveLinkedListElements'/>
         <page name='LargestNumberAtLeastTwice'/>
         <page name='NumberOfEquivalentDominoPairs'/>
+        <page name='CountSegments'/>
+        <page name='StackPlayground'/>
+        <page name='HackerRankTestPage '/>
+        <page name='DictionaryPractice'/>
     </pages>
 </playground>
