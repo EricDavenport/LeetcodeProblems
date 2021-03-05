@@ -20,5 +20,6 @@
         <page name='StackPlayground'/>
         <page name='HackerRankTestPage '/>
         <page name='DictionaryPractice'/>
+        <page name='LeetcodeDictionary1365'/>
     </pages>
 </playground>
