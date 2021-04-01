@@ -71,7 +71,7 @@ class LinkedList {
 }
 
 
- function to add to linked list
+// function to add to linked list
 extension LinkedList {
   func append(_ val: Int) {
     let newNode = ListNode(val)
@@ -114,3 +114,7 @@ var oneNode = ListNode(1, twoNode)
 //var list = LinkedList()
 
 removeElements(oneNode, 6)
+
+/*
+ 
+ */

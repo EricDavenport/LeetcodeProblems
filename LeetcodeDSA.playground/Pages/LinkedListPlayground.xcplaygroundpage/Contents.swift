@@ -99,15 +99,23 @@ extension LinkedList {
   
   // challenge: write a function to remove the last element in a linkedList
   func removeLast() -> Node? {
-//    var tail = self.tail
+    //    var tail = self.tail
     
-//    while secondLast
+    //    while secondLast
     
     guard let lastNode = tail else {
       return nil
     }
     tail = nil
     return lastNode
+  }
+  
+  // delete node that isnt the tail or head
+  func deleteNode(_ node: Node?) {
+    guard let currentNode = node, let next = node?.next else { return }
+    
+    currentNode.value = next.value
+    currentNode.next = next.next
   }
   
   

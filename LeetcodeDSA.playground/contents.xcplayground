@@ -26,5 +26,7 @@
         <page name='HackerRankReverseLinkedList'/>
         <page name='HackerRankMiddleOfLinkedList'/>
         <page name='HRRemoveElementsFromLinkedList'/>
+        <page name='DeleteNodeInLinkedList'/>
+        <page name='LinkedListDeleteNode'/>
     </pages>
 </playground>
