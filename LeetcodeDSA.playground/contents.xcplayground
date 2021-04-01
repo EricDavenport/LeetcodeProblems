@@ -24,5 +24,6 @@
         <page name='1160WordsThatCanBeFormed'/>
         <page name='HackerRankTwoStrings'/>
         <page name='HackerRankReverseLinkedList'/>
+        <page name='HackerRankMiddleOfLinkedList'/>
     </pages>
 </playground>
