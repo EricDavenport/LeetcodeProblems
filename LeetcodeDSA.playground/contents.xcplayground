@@ -22,5 +22,7 @@
         <page name='DictionaryPractice'/>
         <page name='LeetcodeDictionary1365'/>
         <page name='1160WordsThatCanBeFormed'/>
+        <page name='HackerRankTwoStrings'/>
+        <page name='HackerRankReverseLinkedList'/>
     </pages>
 </playground>
